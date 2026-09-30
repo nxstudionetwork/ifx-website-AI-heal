@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Idea Forgenex Group</title>
+    <link rel="stylesheet" href="style-new.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation (keeps site-wide consistency) -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">
+                <img src="images/logo.png" alt="Ideaforgenex Group Logo">
+                <span class="logo-text"><span class="logo-name-long">Idea Forgenex Group</span><span class="logo-name-short">IFX Group</span></span>
+            </a>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="ideas.html" class="nav-link">Ideas Hub</a></li>
+                <li><a href="portfolio.html" class="nav-link">Portfolio</a></li>
+                <li><a href="services.html" class="nav-link">Services</a></li>
+                <li><a href="recognition.html" class="nav-link">Recognition</a></li>
+                <li><a href="contact.html" class="nav-link active">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <div id="particle-canvas-container"><canvas id="bg-canvas"></canvas></div>
+
+    <!-- HERO SECTION -->
+    <section class="hero contact-hero section" id="contact-hero">
+        <div class="hero-background">
+            <div class="gradient-orb orb-1"></div>
+            <div class="gradient-orb orb-2"></div>
+            <div class="gradient-orb orb-3"></div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-box">
+                <span class="slide-label">CONNECT • COLLABORATE • ACCELERATE</span>
+                <h1 class="hero-title">Let's Build Something Meaningful Together</h1>
+                <p class="hero-subtitle">Whether you're looking to launch an idea, solve a challenge, explore a partnership, or join our mission, we're always open to meaningful conversations. Every innovation starts with a simple connection. Reach out and let's create impact together.</p>
+            </div>
+        </div>
+    </section>
+
+        <!-- Divider -->
+    <div class="container">
+        <div class="premium-separator"></div>
+    </div>
+
+    <div class="container">
+        <!-- CHOOSE YOUR PURPOSE -->
+        <section class="section" id="purpose">
+            <h2 class="section-title text-center">How Would You Like To Connect?</h2>
+            <p class="section-text">Select the option that best matches your intent — we&apos;ll show a tailored form to collect the right details.</p>
+
+            <div class="purpose-cards" style="display:flex; gap:18px; justify-content:center; flex-wrap:wrap; margin-top:30px;">
+                <div class="purpose-card" data-tab="join" tabindex="0" style="min-width:220px; max-width:340px; cursor:pointer;">
+                    <div style="font-size:2rem">🚀</div>
+                    <h3>Join Us</h3>
+                    <p>Become part of our innovation journey and contribute to impactful projects.</p>
+                </div>
+                <div class="purpose-card" data-tab="idea" tabindex="0" style="min-width:220px; max-width:340px; cursor:pointer;">
+                    <div style="font-size:2rem">💡</div>
+                    <h3>Share An Idea</h3>
+                    <p>Have an innovative concept? Let's explore and shape it together.</p>
+                </div>
+                <div class="purpose-card" data-tab="partner" tabindex="0" style="min-width:220px; max-width:340px; cursor:pointer;">
+                    <div style="font-size:2rem">🤝</div>
+                    <h3>Partner With Us</h3>
+                    <p>Collaborate with us to create meaningful solutions and opportunities.</p>
+                </div>
+                <div class="purpose-card" data-tab="consult" tabindex="0" style="min-width:220px; max-width:340px; cursor:pointer;">
+                    <div style="font-size:2rem">📞</div>
+                    <h3>Request Consultation</h3>
+                    <p>Need guidance or strategic support? Let&apos;s talk.</p>
+                </div>
+            </div>
+
+            <!-- DYNAMIC SMART FORMS -->
+            <div id="forms" style="margin-top:36px; display:flex; justify-content:center;">
+                <div class="tab-content" id="join">
+                    <div class="contact-form-wrapper">
+                        <h2>Join Us</h2>
+                        <p>Tell us about yourself and why you&apos;d like to contribute.</p>
+                        <a href="https://forms.gle/MhzYxRKU8ad2UKwPA" target="_blank" class="btn btn-primary" style="display:inline-block; margin-top:20px;">🚀 Join Us Form</a>
+                    </div>
+                </div>
+
+                <div class="tab-content" id="idea">
+                    <div class="contact-form-wrapper">
+                        <h2>Share An Idea</h2>
+                        <p>Give us the essentials and we&apos;ll follow up to explore possibilities.</p>
+                        <a href="https://forms.gle/qqyaD1DkBgfdUteLA" target="_blank" class="btn btn-primary" style="display:inline-block; margin-top:20px;">💡 Share Idea Form</a>
+                    </div>
+                </div>
+
+                <div class="tab-content" id="partner">
+                    <div class="contact-form-wrapper">
+                        <h2>Partner With Us</h2>
+                        <p>Share partnership details and goals so we can evaluate fit.</p>
+                        <a href="https://forms.gle/Bpe88n4QBLsgFrAR6" target="_blank" class="btn btn-primary" style="display:inline-block; margin-top:20px;">🤝 Partner Form</a>
+                    </div>
+                </div>
+
+                <div class="tab-content" id="consult">
+                    <div class="contact-form-wrapper">
+                        <h2>Request Consultation</h2>
+                        <p>Describe your challenge and preferred meeting mode.</p>
+                        <a href="https://forms.gle/dSKQUrs7EdMsPLcn7" target="_blank" class="btn btn-primary" style="display:inline-block; margin-top:20px;">📞 Consultation Form</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+            <!-- Divider -->
+    <div class="container">
+        <div class="premium-separator"></div>
+    </div>
+
+        <!-- QUICK ACCESS INFORMATION -->
+        <section class="section" id="quick-access">
+            <h2 class="section-title text-center">Quick Access</h2>
+            <div class="contact-info-grid" style="margin-top:28px;">
+                <div class="contact-info-card">
+                    <div class="contact-icon">📧</div>
+                    <h3>Email Us</h3>
+                    <p>ideaforgenexgroup@gmail.com</p>
+                    <small style="color:var(--text-dark);">For all general inquiries and collaboration requests.</small>
+                </div>
+                <div class="contact-info-card">
+                    <div class="contact-icon">🌐</div>
+                    <h3>Address</h3>
+                    <p>! Works on Online !</p>
+                    <small style="color:var(--text-dark);">Operating digitally to connect and collaborate globally.</small>
+                </div>
+                <div class="contact-info-card">
+                    <div class="contact-icon">🚀</div>
+                    <h3>Opportunities</h3>
+                    <p>Ideas • Acceleration • Consultation</p>
+                    <small style="color:var(--text-dark);">Share ideas, seek guidance, or explore partnerships.</small>
+                </div>
+                <div class="contact-info-card">
+                    <div class="contact-icon">⏱</div>
+                    <h3>Response Time</h3>
+                    <p>Within 24 Hours</p>
+                    <small style="color:var(--text-dark);">We aim to respond to all inquiries promptly.</small>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <!-- Success Popup -->
+    <div id="successModal" class="modal">
+        <div class="modal-content modal-body">
+            <span class="close-modal" onclick="closeSuccess()">&times;</span>
+            <h2>Thanks — We received your submission</h2>
+            <p>Our team will review your message and reach out within 24 hours. Meanwhile, explore our Ideas Hub or Portfolio.</p>
+            <div style="margin-top:20px; display:flex; gap:12px;">
+                <a href="ideas.html" class="btn btn-outline">Explore Ideas</a>
+                <a href="portfolio.html" class="btn btn-primary">View Portfolio</a>
+            </div>
+        </div>
+    </div>
+
+     <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content footer-content-minimal">
+                <div class="footer-brand">
+                    <div class="brand-logo-wrapper">
+                        <img src="images/logo.png" alt="Ideaforgenex Group Logo">
+                        <span class="brand-name"><span class="logo-name-long">Idea Forgenex Group</span><span class="logo-name-short">IFX Group</span></span>
+                    </div>
+                    <p class="footer-quote">Ideas today. Impact tomorrow.</p>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contact</h4>
+                    <a class="footer-contact-item" href="mailto:ideaforgenexgroup@gmail.com"><span aria-hidden="true">✉</span> ideaforgenexgroup@gmail.com</a>
+                    <span class="footer-contact-item"><span aria-hidden="true">⌖</span> ! Works on Online !</span>
+                    <div class="footer-socials" aria-label="Social media channels">
+                        <a href="https://x.com" class="social-icon" title="X / Twitter" aria-label="X / Twitter" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-x-twitter" aria-hidden="true"></i></a>
+                        <a href="https://instagram.com" class="social-icon" title="Instagram" aria-label="Instagram" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-instagram" aria-hidden="true"></i></a>
+                        <a href="https://youtube.com" class="social-icon" title="YouTube" aria-label="YouTube" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-youtube" aria-hidden="true"></i></a>
+                        <a href="https://linkedin.com" class="social-icon" title="LinkedIn" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin-in" aria-hidden="true"></i></a>
+                        <a href="https://facebook.com" class="social-icon" title="Facebook" aria-label="Facebook" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-facebook-f" aria-hidden="true"></i></a>
+                        <a href="https://tiktok.com" class="social-icon" title="TikTok" aria-label="TikTok" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-tiktok" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+                <div class="footer-back-to-top">
+                    <button class="back-to-top" type="button" onclick="window.scrollTo({ top: 0, behavior: 'smooth' });">↑ <span>Back to top</span></button>
+                    <small>© 2026 IFX Group</small>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        // Wire up purpose cards to show forms (ensures first load keeps none visible)
+        function showTab(id){
+            if(!id) return;
+            document.querySelectorAll('.purpose-card').forEach(c => c.classList.remove('active'));
+            document.querySelectorAll('.tab-content').forEach(t => t.classList.remove('active'));
+            const card = document.querySelector(`.purpose-card[data-tab="${id}"]`);
+            if(card) card.classList.add('active');
+            const el = document.getElementById(id);
+            if(el){ el.classList.add('active'); el.scrollIntoView({behavior:'smooth', block:'start'}); }
+        }
+
+        document.querySelectorAll('.purpose-card').forEach(card => {
+            card.addEventListener('click', () => {
+                const id = card.getAttribute('data-tab');
+                showTab(id);
+            });
+            card.addEventListener('keypress', (e) => { if (e.key === 'Enter') card.click(); });
+        });
+
+        // Open tab from URL query param (supports aliases)
+        (function(){
+            const params = new URLSearchParams(window.location.search);
+            const raw = params.get('tab');
+            if(!raw) return;
+            const aliasMap = {
+                'project': 'partner',
+                'collaborate': 'partner',
+                'collab': 'partner',
+                'idea': 'idea',
+                'join': 'join',
+                'consult': 'consult',
+                'enquiry': 'consult',
+                'enquire': 'consult',
+                'contact': 'join'
+            };
+            const key = raw.toLowerCase();
+            const target = aliasMap[key] || key;
+            // delay slightly to allow DOM/CSS to settle
+            setTimeout(() => showTab(target), 250);
+        })();
+
+        // Enhance existing handleFormSubmit to show loader + success modal
+        const originalHandle = window.handleFormSubmit;
+        window.handleFormSubmit = function(e, type){
+            e.preventDefault();
+            const form = e.target;
+            const submitBtn = form.querySelector('button[type="submit"]');
+            const loader = form.querySelector('.submit-loader');
+            if(submitBtn){ submitBtn.disabled = true; submitBtn.style.opacity = 0.6; }
+            if(loader) loader.style.display = 'inline-block';
+
+            // Simulate async submit
+            setTimeout(()=>{
+                if(submitBtn){ submitBtn.disabled = false; submitBtn.style.opacity = 1; }
+                if(loader) loader.style.display = 'none';
+                form.reset();
+                // show success modal
+                const modal = document.getElementById('successModal');
+                if(modal){ modal.classList.add('active'); document.body.style.overflow = 'hidden'; }
+            }, 900);
+
+            // Log to console as well
+            try{ const data = Object.fromEntries(new FormData(form)); console.log(type + ' form submitted:', data); }catch(err){ console.warn('Form serializing failed', err); }
+        };
+
+        function closeSuccess(){
+            const modal = document.getElementById('successModal');
+            if(modal) modal.classList.remove('active');
+            document.body.style.overflow = 'auto';
+        }
+
+        // Close modal when clicked outside
+        const successModalEl = document.getElementById('successModal');
+        if(successModalEl){ successModalEl.addEventListener('click', (e)=>{ if(e.target.id === 'successModal') closeSuccess(); }); }
+
+    </script>
+</body>
+</html>
